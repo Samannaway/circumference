@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts used */
+/* font-family: 'Passion One', cursive;
+font-family: 'Share Tech', sans-serif;
+font-family: 'Teko', sans-serif; 
+font-family: 'Fugaz One', cursive;*/
+
+/* styling */
+
+.card{
+    background-color: #fff;
+    width: 20rem;
+    padding: 2% 2%;
+    border-radius: 2rem!important;
+}
+
+.centerIt{
+    text-align: center;
+}
+
+.input-group{
+    margin: 1% 0 6% 0;
+}
+
+.holder{
+    padding: 5%;
+    background-color: #F979F4;
+}
+
+.btn{
+   margin: 0 26% 7% 26%;
+}
+
+
+.card-text{
+    padding: 2%;
+}
+
+.navbar{
+    background-color: #A345CF!important;
+    color: #fff;
+    padding: 2% 2%!important;
+}
+
+.copytright{
+    background-color: #A345CF!important;
+    color: #fff;
+    padding: 1% 1%!important;
+}
+
+
+.navbar-brand{
+    font-size: 250%!important;
+    font-family: 'Passion One', cursive;
+}
+
+.cardFont1{
+    font-family: 'Fugaz One', cursive;
+    font-weight: bold;
+    margin: 2%;
+}
+
+.Montserrat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.share-tech{
+    font-family: 'Share Tech', sans-serif;
+}
+
+@media (max-width:768px){
+    .navbar,.copytright{
+        padding: 9% 1%!important;
+    }
+
+    .holder{
+        padding: 22%;
+    }
+}
