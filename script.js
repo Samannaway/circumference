@@ -12,9 +12,9 @@ inputBtn.addEventListener("click",()=>{
     let circumference2 = 2*(radius*PI2)
 
     if ( Number.isInteger(radius/4) == true) {
-        output.innerHTML = "this is the circumference - " +  circumference2
+        output.innerHTML = circumference2
     }else{
-        output.innerHTML = "this is the circumference - " +  circumference
+        output.innerHTML = circumference
     }
 
     console.log(circumference);
